@@ -6,7 +6,7 @@ This project is a comprehensive sentiment analysis system for movie reviews, bui
 Features
 Data Analysis: Exploratory analysis of the IMDB review dataset with visualizations
 
-Text Preprocessing:
+# Text Preprocessing:
 
 HTML tag removal
 
@@ -20,7 +20,7 @@ Remove chat_words
 
 TF-IDF
 
-Multiple ML Models: Implementation and comparison of four classification algorithms:
+# Multiple ML Models: Implementation and comparison of four classification algorithms:
 
 Logistic Regression
 
@@ -30,9 +30,9 @@ Multinomial Naive Bayes
 
 Linear Support Vector Classifier (LinearSVC)
 
-Performance Evaluation: Comprehensive metrics including accuracy, precision, recall, and F1-score
+# Performance Evaluation: Comprehensive metrics including accuracy, precision, recall, and F1-score
 
-Dataset
+# Dataset
 The project uses the IMDB Dataset containing 50,000 movie reviews labeled as either "positive" or "negative". The dataset is balanced with an equal distribution of both sentiment classes.
 
 Installation & Dependencies
@@ -53,7 +53,7 @@ Evaluation: Compares model performance using multiple metrics
 
 Results Analysis: Provides insights into model performance and effectiveness
 
-Models Implemented
+# Models Implemented
 The notebook compares the performance of:
 
 Logistic Regression: A linear model for binary classification
@@ -64,7 +64,7 @@ Multinomial Naive Bayes: A probabilistic classifier based on Bayes' theorem
 
 LinearSVC: Support Vector Machine with linear kernel
 
-Performance Metrics
+# Performance Metrics
 Each model is evaluated using:
 
 Accuracy
@@ -75,7 +75,7 @@ Recall
 
 F1-Score
 
-Usage
+# Usage
 Load the IMDB Dataset CSV file
 
 Run the notebook cells sequentially
@@ -84,30 +84,7 @@ The models will be trained and evaluated automatically
 
 Results are displayed with comparative analysis
 
-Results
+# Results
 The notebook provides a detailed comparison of model performance, helping identify the most effective approach for movie review sentiment analysis. Typically, LinearSVC and Logistic Regression tend to perform well on text classification tasks like this.
 
-Applications
-This sentiment analyzer can be used for:
 
-Automated movie review classification
-
-Content moderation systems
-
-Market research and analysis
-
-Building recommendation systems
-
-Future Enhancements
-Potential improvements could include:
-
-Deep learning approaches (RNNs, Transformers)
-
-More sophisticated text preprocessing (lemmatization, stemming)
-
-Hyperparameter tuning
-
-Deployment as a web service
-
-Author
-This notebook demonstrates a complete machine learning pipeline for natural language processing and sentiment analysis tasks.
