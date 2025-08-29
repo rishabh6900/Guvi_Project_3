@@ -35,10 +35,10 @@ Linear Support Vector Classifier (LinearSVC)
 # Dataset
 The project uses the IMDB Dataset containing 50,000 movie reviews labeled as either "positive" or "negative". The dataset is balanced with an equal distribution of both sentiment classes.
 
-Installation & Dependencies
+# Installation & Dependencies
 To run this notebook, you'll need to install the following packages:
 
-bash
+# bash
 pip install textblob pandas numpy scikit-learn matplotlib seaborn
 Project Structure
 Data Loading & Exploration: Loads the dataset and provides basic statistics and visualizations
