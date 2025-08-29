@@ -40,7 +40,8 @@ To run this notebook, you'll need to install the following packages:
 
 # bash
 pip install textblob pandas numpy scikit-learn matplotlib seaborn
-Project Structure
+
+# Project Structure
 Data Loading & Exploration: Loads the dataset and provides basic statistics and visualizations
 
 Text Preprocessing: Cleans and prepares text data for analysis
